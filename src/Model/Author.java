@@ -27,7 +27,7 @@ public class Author {
             return false;
         }
         Author temp = (Author) obj;
-        return temp.firstName.equals(this.firstName) && temp.secondName.equals(this.secondName);
+        return firstName.equals(temp.firstName) && secondName.equals(temp.secondName);
     }
 
     @Override
